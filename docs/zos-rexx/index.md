@@ -1,6 +1,8 @@
-# zOS Rexx Executor
+# Introduction
 
 ---
+
+[[toc]]
 
 The zOS Rexx Executor can run REXX statements provided in a dataset or in the plugin step.
 

@@ -1,6 +1,8 @@
-# z/OS Rexx Executor - Usage
+# Usage
 
 ---
+
+[[toc]]
 
 The z/OS Rexx Executor plug-in will execute statements provided in a dataset or inline in the plugin step.
  
@@ -22,7 +24,7 @@ The **SYSPROC** field allows user to pass datasets containing REXX programs
 that will be used by the REXX program run by the plugin step. 
 Multiple **SYSPROC** datasets can be passed by separating datasets by a comma(,).
 
-### Setting output property
+## Setting output property
 
 This plugin allows user to set output properties from the REXX program and 
 later to be used in successive steps of a process. 
@@ -40,7 +42,7 @@ For example, below REXX snippet will set an output property **currentDate** with
     date = DATE('S')  /* Returns date in YYYYMMDD format E.g., 20120327 */
     CALL SETPROP "currentDate" date   
 
-### Setting multi-line output property
+## Setting multi-line output property
 
 To set a multi-line output property, the lines of the property value must be separated 
 by a delimiter returned by inbuilt program **GETDLMTR** 
@@ -57,7 +59,7 @@ Will set property **outputLines** to below value
     This is first line
     This is second line
 
-### Referring properties from successive steps
+## Referring properties from successive steps
 
 If the rexx step name is **Run-Rexx-Program** and output property name is **currentDate**
 then the output properties can be referred by the successive steps as below

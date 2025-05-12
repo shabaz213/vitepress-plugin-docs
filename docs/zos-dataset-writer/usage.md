@@ -1,12 +1,8 @@
-# z/OS Dataset Writer - Usage
+# Usage
 
+---
 
-
-The z/OS Dataset Writer plug-in contains the **Write to Sequential Dataset** step to write input text, dataset, or USS file to a sequential dataset.
-
-* [Copy text to a dataset](#copy-text-to-a-dataset)
-* [Copy file data to a dataset](#copy-file-data-to-a-dataset)
-* [Copying PDS member or Sequential dataset data to another dataset](#copying-pds-member-or-sequential-dataset-data-to-another-dataset)
+[[toc]]
 
 ## Copy text to a dataset
 

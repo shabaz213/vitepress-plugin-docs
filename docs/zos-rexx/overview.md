@@ -1,6 +1,8 @@
-# z/OS Rexx Executor - Overview
+# Overview
 
 ---
+
+[[toc]]
 
 The z/OS Rexx Executor plug-in allows one to execute REXX statements provided in a zOS Dataset or Inline in the plugin.
 
