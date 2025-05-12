@@ -2,13 +2,12 @@ import { defineConfig } from 'vitepress'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
-  title: "Plugins Doc",
+  title: "IBM DevOps Deploy Plugins",
   description: "Documentation for XYZ Plugins",
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: [
-      { text: 'Home', link: '/' },
-      { text: 'Examples', link: '/markdown-examples' }
+      { text: 'Home', link: '/' }
     ],
 
     sidebar: [
