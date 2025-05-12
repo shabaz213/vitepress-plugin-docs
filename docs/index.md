@@ -3,23 +3,15 @@
 layout: home
 
 hero:
-  name: "Plugins Doc"
-  text: "Documentation for XYZ Plugins"
-  tagline: My great project tagline
-  actions:
-    - theme: brand
-      text: Markdown Examples
-      link: /markdown-examples
-    - theme: alt
-      text: API Examples
-      link: /api-examples
+  name: "IBM DevOps Deploy"
+  text: "Plugins Documentation"
 
 features:
-  - title: Feature A
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature B
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature C
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
+  - title: z/OS Dataset Writer
+    details: Data set writer plugin for z/OS
+    link: zos-dataset-writer/
+  - title: z/OS REXX
+    details: REXX plugin for z/OS
+    link: zos-rexx/
 ---
 
