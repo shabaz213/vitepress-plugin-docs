@@ -16,6 +16,7 @@ function createCommonSidebar(base) {
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
+  base: "vitepress-plugin-docs",
   title: "IBM DevOps Deploy Plugins",
   description: "Documentation for XYZ Plugins",
   themeConfig: {
